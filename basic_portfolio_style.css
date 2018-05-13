@@ -1,7 +1,6 @@
 
  * {
     box-sizing: border-box;
-    text-align: center;
   }
   
   body {
@@ -16,9 +15,9 @@
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: rgb(22, 145, 161);
-  }
-
-  section {
+    position: fixed;
+    top: 0px;
+    left: 0px;
   }
   
   #right {
@@ -53,16 +52,34 @@
     top: 0px;
     right: 500px;
   }
-  
+
+  .clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }
+
   .container {
     padding-left: 400px;
     padding-right: 400px; 
     text-align: left;
 }
 
+#aboutme {
+    background-color: gray;
+    padding: 20px;
+    color: white;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
   #full {
     background-color: skyblue; 
-    margin-top: 10px;
+    border-color: skyblue;
+    border-width: 20px;
+    border-style: solid;
   }
   
   #division {
@@ -74,13 +91,16 @@
   
   aside {
     float: left;
-    background: burlywood;
-    border-color: blanchedalmond;
+    background: skyblue;
+    border-color: skyblue;
     border-width: 10px;
     border-style: solid; 
-    margin-left: 10px; 
   }
   
+  .footer {
+    text-align: center;
+  }
+
   footer {
     background-color: lightgray; 
     padding: 20px; 
