@@ -8,18 +8,14 @@
       font-size: smaller; 
       background-image: url("signaturebackground.jpg");
   }
-
-  header {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-  }
   
   #left {
     background-color: rgb(105, 105, 105);
     float: right;
     width: 200px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px; 
     color: white;
     font-weight: bolder;
   }
@@ -28,7 +24,9 @@
     background-color: rgb(24, 129, 120);
     float: right;
     width: 200px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px; 
     color: white; 
     font-weight: bolder;
   }
@@ -37,7 +35,9 @@
     background-color: rgb(83, 173, 110);
     float: right;
     width: 200px; 
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px; 
     color: white; 
     font-weight: bolder;
   }
