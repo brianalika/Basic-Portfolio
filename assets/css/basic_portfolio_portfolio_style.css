@@ -6,9 +6,36 @@
   body {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: smaller; 
-      background-image: url("signaturebackground.jpg");
+      background-image: url("../images/signaturebackground.jpg");
   }
-  
+
+    #right:hover {
+        background-color: hotpink;
+    }
+
+    #middle:hover {
+    background-color: rgb(191, 29, 212);
+    }
+
+    #left:hover {
+    background-color: rgb(245, 121, 49);
+    }
+
+  #contactbutton {
+    width: 130px;
+    height: 40px;
+  }
+
+  #portfoliobutton {
+    width: 140px;
+    height: 40px;
+  }
+
+  #aboutbutton {
+    width: 115px;
+    height: 40px;
+  }
+
   #left {
     background-color: rgb(105, 105, 105);
     float: right;
